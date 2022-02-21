@@ -1,0 +1,34 @@
+{
+  "name": "benfiratkaya/commonmark-ext-underline",
+  "license": "MIT",
+  "type": "commonmark-extension",
+  "description": "This extension adds support for underline syntax. It allows users to use !! in order to indicate text that should be rendered within <u> tags.",
+  "keywords": [
+    "markdown",
+    "commonmark",
+    "extension",
+    "underline",
+    "text"
+  ],
+  "authors": [
+    {
+      "name": "Firat Kaya",
+      "email": "benfiratkaya@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "league/commonmark": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BenFiratKaya\\CommonMarkExtension\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
