@@ -19,11 +19,11 @@
   
   final class UnderlineDelimiterProcessor implements DelimiterProcessorInterface {
     public function getOpeningCharacter(): string {
-      return '!';
+      return '^';
     }
     
     public function getClosingCharacter(): string {
-      return '!';
+      return '^';
     }
     
     public function getMinLength(): int {
@@ -37,7 +37,7 @@
     }
     
     public function process(AbstractStringContainer $opener, AbstractStringContainer $closer, int $delimiterUse): void {
-      $strikethrough = new Underline(\str_repeat('!!', $delimiterUse));
+      $strikethrough = new Underline(\str_repeat('^^', $delimiterUse));
       
       $tmp = $opener->next();
       while ($tmp !== null && $tmp !== $closer) {
