@@ -1,4 +1,4 @@
-# Extension to change link content to url
+## CommonMark Underline Extension
 
 ![Tests](https://github.com/benfiratkaya/commonmark-ext-underline/workflows/PHP%20Composer/badge.svg)
 
