@@ -5,7 +5,7 @@
         'type' => 'commonmark-extension',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '98bb5a337503d2c8c6d6ff3c22ca4094aae9cf25',
+        'reference' => '4fdd8aaa143f944feabb2091c79900a54e413529',
         'name' => 'benfiratkaya/commonmark-ext-underline',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'commonmark-extension',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '98bb5a337503d2c8c6d6ff3c22ca4094aae9cf25',
+            'reference' => '4fdd8aaa143f944feabb2091c79900a54e413529',
             'dev_requirement' => false,
         ),
         'dflydev/dot-access-data' => array(
