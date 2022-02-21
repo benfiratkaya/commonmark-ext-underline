@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'commonmark-extension',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'benfiratkaya/commonmark-ext-link-text-viewer',
+        'reference' => '98bb5a337503d2c8c6d6ff3c22ca4094aae9cf25',
+        'name' => 'benfiratkaya/commonmark-ext-underline',
         'dev' => true,
     ),
     'versions' => array(
-        'benfiratkaya/commonmark-ext-link-text-viewer' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        'benfiratkaya/commonmark-ext-underline' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'commonmark-extension',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '98bb5a337503d2c8c6d6ff3c22ca4094aae9cf25',
             'dev_requirement' => false,
         ),
         'dflydev/dot-access-data' => array(
