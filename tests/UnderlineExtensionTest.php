@@ -17,7 +17,7 @@
     public function testApplyForAllLinks(): void {
       $converter = $this->getConverter();
       
-      $markdown = '!!test!!';
+      $markdown = '^^test^^';
       $html = $converter->convertToHtml($markdown);
       
       $this->assertStringContainsString(
