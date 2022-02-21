@@ -2,7 +2,7 @@
 
 ![Tests](https://github.com/benfiratkaya/commonmark-ext-underline/workflows/PHP%20Composer/badge.svg)
 
-This extension adds support for underline syntax. It allows users to use !! in order to indicate text that should be rendered within <u> tags.
+This extension adds support for underline syntax. It allows users to use ^^ in order to indicate text that should be rendered within <u> tags.
 ## Install
 
 ```bash
@@ -21,7 +21,7 @@ $environment->addExtension(new CommonMarkCoreExtension())
             ->addExtension(new UnderlineExtension());
 
 $converter = new MarkdownConverter($environment);
-$html = $converter->convertToHtml('!!test!!');
+$html = $converter->convertToHtml('^^test^^');
 ```
 
 This creates the following HTML
