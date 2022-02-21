@@ -19,7 +19,7 @@
   final class Underline extends AbstractInline implements DelimitedInterface {
     private string $delimiter;
     
-    public function __construct(string $delimiter = '!!') {
+    public function __construct(string $delimiter = '^^') {
       parent::__construct();
       
       $this->delimiter = $delimiter;
